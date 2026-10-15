@@ -69,7 +69,7 @@ The screens have no UI tests.
 
 - JDK 17
 - Android SDK 34
-- The Gradle wrapper in this repository. Plugin and library versions are in `gradle/libs.versions.toml`.
+- The Gradle wrapper in this repository (Gradle 8.0). Android Gradle plugin 8.1.1. Plugin and library versions are in `gradle/libs.versions.toml`.
 
 ## Notes
 
