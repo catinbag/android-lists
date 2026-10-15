@@ -11,8 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
     private final DemoMode[] modes = {
-            new BasicMode(), new ClickMode(), new RecycleLogMode(), new LayoutsMode(),
-            new SectionsMode(), new CarouselMode()
+            new BasicMode(), new ClickMode(), new RecycleLogMode()
     };
 
     @Override
