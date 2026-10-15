@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/snap_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="8dp">
+
+        <RadioButton
+            android:id="@+id/radio_no_snap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="No snap" />
+
+        <RadioButton
+            android:id="@+id/radio_linear_snap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Linear" />
+
+        <RadioButton
+            android:id="@+id/radio_pager_snap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pager" />
+    </RadioGroup>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
