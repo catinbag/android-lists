@@ -68,8 +68,8 @@ The screens have no UI tests.
 ## Requirements
 
 - JDK 17
-- Android SDK 34
-- The Gradle wrapper in this repository. Plugin and library versions are in `gradle/libs.versions.toml`.
+- Android SDK 33
+- The Gradle wrapper in this repository (Gradle 7.5). Android Gradle plugin 7.4.2. Plugin and library versions are in `gradle/libs.versions.toml`.
 
 ## Notes
 

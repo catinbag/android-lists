@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace = "org.demo.lists.scrollview"
-    compileSdk = 34
+    compileSdk = 33
 
     defaultConfig {
         applicationId = "org.demo.lists.scrollview"
         minSdk = 26
-        targetSdk = 34
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
     }
